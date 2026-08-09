@@ -16,7 +16,7 @@ audio_play_sound(sd_ini_morte,20,0,1,0,1+random_range(-0.2,0))
 
 var _chance = irandom_range(1,100)
 
-if _chance=1{
+if _chance<=5{
 	
 	instance_create_depth(x,y,-2000,ob_vida,{direction:irandom(360),speed:2})
 }

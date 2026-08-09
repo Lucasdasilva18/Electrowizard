@@ -7,6 +7,20 @@ if global.jogo_pausado{
 
 
 if tempo_restante=0{
+	
+	if boss{
+		
+		if !boss_nasceu{
+			
+			instance_create_depth(x,y,depth-1,ob_boss_guardiao)
+			boss_nasceu=true
+		}
+		
+	}
+	else{
+	
+	
+	
 	//tempo para sumonar mais inimigos
 	if temp_handle<temp{
 		temp_handle++
@@ -42,6 +56,13 @@ if tempo_restante=0{
 				
 			}//se não eu termino a wave e inicio o cronômetro novamente
 			else{
+				//iniciando o tempo da wave do boss
+				if wave_atual ==array_length(waves.mundo1){
+					
+					tempo_restante=1*minuto
+					boss=true
+					
+				}
 				if wave_atual < array_length(waves.mundo1){
 					wave_atual++ 
 				
@@ -62,9 +83,12 @@ if tempo_restante=0{
 				
 				}
 				
+				
+				
 			}
 		}
 		
+	}
 	}
 	
 

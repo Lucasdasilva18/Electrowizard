@@ -21,9 +21,17 @@ draw_set_font(ft_descricoes)
 if tempo_restante !=0{
 	
 	//texto do cronômetro 
-
-	draw_text_ext_colour(display_get_gui_width()/4+100,10,"Próxima onda em :",24,360,c_yellow,c_yellow,c_yellow,c_yellow,1)
 	
+	if boss==false{
+	
+		draw_text_ext_colour(display_get_gui_width()/4+100,10,"Próxima onda em :",24,360,c_yellow,c_yellow,c_yellow,c_yellow,1)
+	
+	}
+	else{
+		
+		draw_text_ext_colour(display_get_gui_width()/4+100,10,"Onda Final em :",24,360,c_yellow,c_yellow,c_yellow,c_yellow,1)
+		
+	}
 	
 	//cronômetro
 	
@@ -35,8 +43,15 @@ if tempo_restante !=0{
 
 //texto do cronômetro 
 
-draw_text_ext_colour(display_get_gui_width()/4+100,60,"Onda " + string(wave_atual)+"/15",24,360,c_white,c_white,c_white,c_white,1)
+if boss==false{
 
+	draw_text_ext_colour(display_get_gui_width()/4+100,60,"Onda " + string(wave_atual)+"/15",24,360,c_white,c_white,c_white,c_white,1)
+
+
+}
+else{
+	draw_text_ext_colour(display_get_gui_width()/4+100,60,"CHEFE",24,360,c_white,c_white,c_white,c_white,1)
+}
 //bloco de pular espera
 
 if tempo_restante>60{

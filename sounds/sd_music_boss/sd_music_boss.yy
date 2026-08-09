@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sd_music_boss",
+  "audioGroupId":{
+    "name":"Music",
+    "path":"audiogroups/Music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":36.816,
+  "exportDir":"",
+  "name":"sd_music_boss",
+  "parent":{
+    "name":"musicas",
+    "path":"folders/audio/musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"sd_music_boss.mp3",
+  "volume":0.47,
+}

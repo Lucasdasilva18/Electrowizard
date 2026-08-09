@@ -31,7 +31,7 @@ else{
 		
 		var _lista = ds_list_create()
 		
-		collision_circle_list(x,y-3,48,ob_inimigo,0,1,_lista,0)
+		collision_circle_list(x,y-3,56,ob_inimigo,0,1,_lista,0)
 		
 		for(var _i=0;_i<ds_list_size(_lista);_i++){
 			
@@ -57,8 +57,8 @@ else{
 	//atirando caso eu tenha energia o suficiente e alcance
 	
 	
-	if instance_exists(alvo){
-		if energia>=30 and alvo!=noone{
+	if instance_exists(alvo) and distance_to_object(alvo)<52{
+		if energia>=30 and alvo!=noone {
 			
 			angulo=point_direction(x,y-3,alvo.x,alvo.y)
 			

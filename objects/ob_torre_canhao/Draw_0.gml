@@ -8,7 +8,7 @@ draw_sprite_stretched(sp_barra,0,x-8,y-12,16,4)
 //se o player estiver em modo de construção, mostro meu alcance
 if ob_mago.modo ==ob_mago.construcao{
 	
-draw_circle_colour(x,y,48,1,c_yellow,c_yellow)
+draw_circle_colour(x,y,56,1,c_yellow,c_yellow)
 
 }
 

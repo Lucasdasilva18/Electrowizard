@@ -34,7 +34,7 @@ else{
 			
 			_lista[|_i].curado=true
 			
-		}
+	}
 		
 	ds_list_destroy(_lista)
 	

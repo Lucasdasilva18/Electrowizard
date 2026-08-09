@@ -9,3 +9,12 @@ else{
 	direction=point_direction(x,y,ob_mago.x,ob_mago.y)
 	
 }
+
+if t_vida>0{
+	
+	t_vida--
+	
+}
+else{
+	instance_destroy()
+}

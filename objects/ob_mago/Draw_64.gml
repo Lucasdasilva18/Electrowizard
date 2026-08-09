@@ -20,7 +20,7 @@ if escolhendo_torre{
 	
 	//desenhando icones das torres
 	
-	for(var _i=0;_i<4;_i++){
+	for(var _i=0;_i<5;_i++){
 		
 			
 		draw_sprite_stretched(sp_Icones_torres,0+_i,x_loja+tam_bloco/3,120+tam_bloco/3+(tam_bloco/3+tam_bloco)*_i,tam_bloco,tam_bloco)
@@ -44,19 +44,19 @@ if escolhendo_torre{
 			
 			//desenhando o retangulo onde ficará o texto
 			
-			draw_rectangle_colour(x_desc,y_desc,x_desc+400,y_desc+280,c_black,c_black,c_black,c_black,0)
+			draw_rectangle_colour(x_desc,y_desc,x_desc+400,y_desc+220,c_black,c_black,c_black,c_black,0)
 			
 			//descrição
 			draw_text_ext(x_desc+5,y_desc+5 ,torres[desc_escolh][2],28,360)
 			
 			//texto do custo de mana
-			draw_text_ext(x_desc+5,y_desc+240,"custo: " ,28,360)
+			draw_text_ext(x_desc+5,y_desc+180,"custo: " ,28,360)
 			//custo de mana
 			
-			draw_text_ext_colour(x_desc+90,y_desc+240,torres[desc_escolh][1],24,360,_bar_cor,_bar_cor,_bar_cor,_bar_cor,1)
+			draw_text_ext_colour(x_desc+90,y_desc+180,torres[desc_escolh][1],24,360,_bar_cor,_bar_cor,_bar_cor,_bar_cor,1)
 			
 			//icone da mana 
-			draw_sprite_stretched(sp_mana,0,x_desc+120,y_desc+244,21,27)
+			draw_sprite_stretched(sp_mana,0,x_desc+140,y_desc+2184,21,27)
 			
 			draw_set_font(-1)
 	

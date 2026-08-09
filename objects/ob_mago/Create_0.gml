@@ -4,7 +4,7 @@ nums=[vk_numpad1,vk_numpad2,vk_numpad3,vk_numpad4]
 
 //torres
 
-torres=[[ob_torre_cruz,20,"Torre simples, atira nas 4 direções em forma de (+), seus raios podem energizar outras torres"],[ob_torre_x,30,"semelhante à torre (+), mas atira em formato de (X), e causa mais dano "],[ob_torre_canhao,50,"canhão simples, não energiza outras torres, mas precisa de energia para atirar "],[ob_torre_mana,50,"gerador de mana, transforma uma quantidade baixa de energia em mana"]]
+torres=[[ob_torre_cruz,20,"Torre simples, atira nas 4 direções em forma de (+), seus raios podem energizar outras torres"],[ob_torre_x,30,"semelhante à torre (+), mas atira em formato de (X), e causa mais dano "],[ob_torre_canhao,50,"canhão simples, não energiza outras torres, mas precisa de energia para atirar "],[ob_torre_mana,50,"gerador de mana, transforma uma quantidade baixa de energia em mana"],[ob_torre_canhao_bomba,100,"canhão de bombas,semelhante ao canhão normal, mas solta bombas que causam dano em área "]]
 
 //variaveis das descrições
 
@@ -342,7 +342,7 @@ construcao= function(){
 	
 		//passandop mouse acima dos icones das torres
 	
-	for(var _i=0;_i<4;_i++){
+	for(var _i=0;_i<5;_i++){
 			
 			/*if keyboard_check_pressed(nums[_i]){
 				

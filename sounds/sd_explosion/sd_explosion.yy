@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sd_explosion",
+  "audioGroupId":{
+    "name":"SFX",
+    "path":"audiogroups/SFX",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.821678,
+  "exportDir":"",
+  "name":"sd_explosion",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/audio/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sd_explosion.mp3",
+  "volume":0.18,
+}
