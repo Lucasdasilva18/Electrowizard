@@ -56,7 +56,7 @@ else{
 
 if tempo_restante>60{
 
-draw_sprite_stretched(sp_iniciar_onda,0,display_get_gui_width()/4+240,60,240,48)
+draw_sprite_stretched(sp_iniciar_onda,0,display_get_gui_width()/4+240,50,240,48)
 
 }
 

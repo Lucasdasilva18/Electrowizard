@@ -56,7 +56,7 @@ if escolhendo_torre{
 			draw_text_ext_colour(x_desc+90,y_desc+180,torres[desc_escolh][1],24,360,_bar_cor,_bar_cor,_bar_cor,_bar_cor,1)
 			
 			//icone da mana 
-			draw_sprite_stretched(sp_mana,0,x_desc+140,y_desc+2184,21,27)
+			draw_sprite_stretched(sp_mana,0,x_desc+130,y_desc+184,21,27)
 			
 			draw_set_font(-1)
 	
@@ -133,11 +133,11 @@ draw_set_alpha(_alpha_dica)
 	
 draw_text_ext(display_get_gui_width()/4,150,"construir torre ",24,360)
 
-draw_sprite_stretched(sp_botao_mouse,0,display_get_gui_width()/4+220,130,80,80)
+draw_sprite_stretched(sp_botao_mouse,0,display_get_gui_width()/4+220,130,60,60)
 
 draw_text_ext(display_get_gui_width()*3/4-320,150,"destruir torre ",24,360)
 
-draw_sprite_stretched(sp_botao_mouse,1,display_get_gui_width()*3/4-120,130,80,80)
+draw_sprite_stretched(sp_botao_mouse,1,display_get_gui_width()*3/4-120,130,60,60)
 
 draw_set_alpha(1)
 
