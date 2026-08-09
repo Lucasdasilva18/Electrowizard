@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sd_musica_mundo_1",
+  "audioGroupId":{
+    "name":"Music",
+    "path":"audiogroups/Music",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":106.392,
+  "exportDir":"",
+  "name":"sd_musica_mundo_1",
+  "parent":{
+    "name":"musicas",
+    "path":"folders/audio/musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"sd_musica_mundo_1.mp3",
+  "volume":0.55,
+}

@@ -1,0 +1,1 @@
+global.jogo_pausado=false

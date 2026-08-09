@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sd_cannon_shot",
+  "audioGroupId":{
+    "name":"SFX",
+    "path":"audiogroups/SFX",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8470521,
+  "exportDir":"",
+  "name":"sd_cannon_shot",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/audio/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sd_cannon_shot.mp3",
+  "volume":0.27,
+}

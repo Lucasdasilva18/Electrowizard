@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sd_click",
+  "audioGroupId":{
+    "name":"SFX",
+    "path":"audiogroups/SFX",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.30349207,
+  "exportDir":"",
+  "name":"sd_click",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/audio/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sd_click.mp3",
+  "volume":1.0,
+}
