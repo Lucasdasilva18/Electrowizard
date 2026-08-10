@@ -20,3 +20,9 @@ if _chance<=5{
 	
 	instance_create_depth(x,y,-2000,ob_vida,{direction:irandom(360),speed:2})
 }
+
+//cristal pra zerar o jogo
+
+
+	
+instance_create_depth(x,y,-2000,ob_diamante,{direction:irandom(360),speed:2})

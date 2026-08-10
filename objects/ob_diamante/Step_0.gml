@@ -1,0 +1,12 @@
+if distance_to_object(ob_mago)>=40{
+	
+	speed=lerp(speed,0,0.1)
+	
+}
+else{
+	
+	speed=lerp(speed,3,0.1)
+	direction=point_direction(x,y,ob_mago.x,ob_mago.y)
+	
+}
+

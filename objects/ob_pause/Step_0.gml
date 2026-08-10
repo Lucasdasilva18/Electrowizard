@@ -29,6 +29,15 @@ else{
 	 
 }
 
+//pelo ESC
+
+if	keyboard_check_pressed(vk_escape){
+	
+	instance_destroy()
+		
+	
+}
+
 //botao tela cheia
 if point_in_rectangle(_mous_x,_mous_y,block2_x-120,block2_y-40,block2_x+120,block2_y+40){
 	

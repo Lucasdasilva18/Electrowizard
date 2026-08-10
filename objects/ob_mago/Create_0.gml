@@ -393,6 +393,12 @@ construcao= function(){
 		}
 	}
 	
+	if	keyboard_check_pressed(vk_escape){
+	
+			escolhendo_torre=false
+
+	}
+	
 	}
 	
 }

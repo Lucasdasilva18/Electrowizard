@@ -11,7 +11,7 @@ font_enable_effects(ft_descricoes,1,{
 })
 
 
-draw_text_colour(display_get_gui_width()/3+140,140,"Guardião do inferno",c_red,c_red,c_red,c_red,1)
+draw_text_colour(display_get_gui_width()/3+155,140,"Guardião do inferno",c_red,c_red,c_red,c_red,1)
 
 font_enable_effects(ft_descricoes,0)
 draw_set_font(-1)

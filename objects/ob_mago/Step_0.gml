@@ -3,8 +3,11 @@ if global.jogo_pausado{
 }
 if	keyboard_check_pressed(vk_escape){
 	
-	instance_create_depth(x,y,-1000,ob_pause)
+	if !escolhendo_torre{
+	
+		instance_create_depth(x,y,-1000,ob_pause)
 
+	}
 }
 
 
